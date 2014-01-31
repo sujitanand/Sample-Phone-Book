@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    MainViewController *mvc;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

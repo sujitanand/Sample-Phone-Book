@@ -19,6 +19,9 @@
 		AF1A1A231893701800492DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1A1A0B1893701800492DF2 /* UIKit.framework */; };
 		AF1A1A2B1893701800492DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF1A1A291893701800492DF2 /* InfoPlist.strings */; };
 		AF1A1A2D1893701800492DF2 /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1A2C1893701800492DF2 /* SampleTests.m */; };
+		AF1A1A381893706000492DF2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1A371893706000492DF2 /* MainViewController.m */; };
+		AF1A1A3B1893718400492DF2 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1A3A1893718400492DF2 /* CustomCell.m */; };
+		AF1A1A3F1893728100492DF2 /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF1A1A3E1893728100492DF2 /* People.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		AF1A1A281893701800492DF2 /* SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleTests-Info.plist"; sourceTree = "<group>"; };
 		AF1A1A2A1893701800492DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF1A1A2C1893701800492DF2 /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		AF1A1A361893706000492DF2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AF1A1A371893706000492DF2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AF1A1A391893718400492DF2 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		AF1A1A3A1893718400492DF2 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		AF1A1A3E1893728100492DF2 /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = People.plist; path = ../../../Downloads/puzzle/People.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 			children = (
 				AF1A1A161893701800492DF2 /* AppDelegate.h */,
 				AF1A1A171893701800492DF2 /* AppDelegate.m */,
+				AF1A1A361893706000492DF2 /* MainViewController.h */,
+				AF1A1A371893706000492DF2 /* MainViewController.m */,
+				AF1A1A391893718400492DF2 /* CustomCell.h */,
+				AF1A1A3A1893718400492DF2 /* CustomCell.m */,
 				AF1A1A191893701800492DF2 /* Images.xcassets */,
 				AF1A1A0E1893701800492DF2 /* Supporting Files */,
 			);
@@ -118,6 +130,7 @@
 		AF1A1A0E1893701800492DF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF1A1A3E1893728100492DF2 /* People.plist */,
 				AF1A1A0F1893701800492DF2 /* Sample-Info.plist */,
 				AF1A1A101893701800492DF2 /* InfoPlist.strings */,
 				AF1A1A131893701800492DF2 /* main.m */,
@@ -219,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1A1A3F1893728100492DF2 /* People.plist in Resources */,
 				AF1A1A121893701800492DF2 /* InfoPlist.strings in Resources */,
 				AF1A1A1A1893701800492DF2 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1A1A181893701800492DF2 /* AppDelegate.m in Sources */,
+				AF1A1A381893706000492DF2 /* MainViewController.m in Sources */,
+				AF1A1A3B1893718400492DF2 /* CustomCell.m in Sources */,
 				AF1A1A141893701800492DF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
